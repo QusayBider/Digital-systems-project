@@ -1,0 +1,32 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x023e0d82: RESR_TMW + 0x20d82 (??1TMW_WND@@UAE@XZ + 0x832)
+	0x6c480e19: mfc90 + 0x30e19
+	0x6c47fa0b: mfc90 + 0x2fa0b
+	0x6c47fc97: mfc90 + 0x2fc97
+	0x6c47da38: mfc90 + 0x2da38
+	0x7582120a: USER32 + 0x4120a (AddClipboardFormatListener + 0x4a)
+	0x758181c9: USER32 + 0x381c9 (GetClassLongW + 0x7b9)
+	0x75815f29: USER32 + 0x35f29 (DispatchMessageW + 0x249)
+	0x7580803f: USER32 + 0x2803f (DispatchMessageA + 0xf)
+	0x6c4bfc07: mfc90 + 0x6fc07
+	0x00ff1968: ccl_thr + 0x1968 (thr_thread_var_destroy + 0x28)
+	0x6c48c869: mfc90 + 0x3c869
+	0x0044f42e: quartus + 0x4f42e (Pjm_Uninit + 0x401ee)
+	0x7552fcc8: KERNEL32 + 0x1fcc8 (BaseThreadInitThunk + 0x18)
+	0x77097c6d: ntdll + 0x67c6d (RtlGetAppContainerNamedObjectPath + 0x11d)
+	0x77097c3d: ntdll + 0x67c3d (RtlGetAppContainerNamedObjectPath + 0xed)
+	0xffffffffffffffff:
+	</callstack>
+	<error>Current editor: STED</error>
+	<date>Sun Jan 21 19:17:35 2024</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
+	<full_error>Access Violation at 0X023E0D82
+Current editor: STED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
+</internal_error>
+

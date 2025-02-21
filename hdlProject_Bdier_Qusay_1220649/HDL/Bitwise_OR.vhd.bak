@@ -1,0 +1,6 @@
+module itwise_OR(output[3:0] reasult,input[3:0]a,b);
+or(reasult[0],a[0],b[0]);
+or(reasult[1],a[1],b[1]);
+or(reasult[2],a[2],b[2]);
+or(reasult[3],a[3],b[3]);
+endmodule

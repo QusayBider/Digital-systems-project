@@ -1,0 +1,6 @@
+module Bitwise_And(output[3:0] result,input[3:0]a,b);
+and(result[0],a[0],b[0]);
+and(result[1],a[1],b[1]);
+and(result[2],a[2],b[2]);
+and(result[3],a[3],b[3]);
+endmodule
